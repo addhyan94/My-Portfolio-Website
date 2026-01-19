@@ -726,3 +726,100 @@ body{
     }
 }
 
+/* .......................... MOBILE screen ke liye   .......................... */
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding: 1rem 5%;
+    }
+
+    nav{
+        width: 70%;
+    }
+
+    section{
+        padding: 4rem 5%;
+    }
+
+    /* HOME */
+    .home{
+        padding-top: 8rem;
+        gap: 3rem;
+        text-align: center;
+    }
+
+    .home-content h1{
+        font-size: 3.6rem;
+    }
+
+    .home-content h3{
+        font-size: 2.4rem;
+    }
+
+    .typing-text{
+        font-size: 2.2rem;
+    }
+
+    .home-content p{
+        font-size: 1.45rem;
+        line-height: 2.2rem;
+    }
+
+    .home-img img{
+        width: 75vw;
+    }
+
+    .social-icons{
+        justify-content: center;
+    }
+
+    /* SKILLS */
+    .skills-container{
+        width: 100%;
+    }
+
+    .skill-card h3{
+        font-size: 2rem;
+    }
+
+    /* EDUCATION */
+    .edu-container{
+        width: 100%;
+    }
+
+    .current-edu h2{
+        font-size: 2.3rem;
+    }
+
+    /* CONTACT */
+    .contact-box{
+        width: 95%;
+        padding: 2.2rem;
+    }
+
+    .page-title{
+        font-size: 3.2rem;
+    }
+
+    .intro-text{
+        font-size: 1.45rem;
+        line-height: 2.2rem;
+        text-align: center;
+    }
+
+    .contact-btn{
+        font-size: 1.35rem;
+    }
+
+    .contact-img{
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+}
